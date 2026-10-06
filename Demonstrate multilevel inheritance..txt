@@ -1,0 +1,20 @@
+
+class Grandfather {
+    void house() {
+        System.out.println("Grandfather's house");
+    }
+}
+
+class Father extends Grandfather {
+    void car() {
+        System.out.println("Father's car");
+    }
+}
+
+class Son extends Father {
+    public static void main(String[] args) {
+        Son s = new Son();
+        s.house();
+        s.car();
+    }
+}

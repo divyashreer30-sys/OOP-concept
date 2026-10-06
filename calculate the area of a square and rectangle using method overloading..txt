@@ -1,0 +1,16 @@
+
+class Area {
+    void calculate(int side) {
+        System.out.println(side * side);
+    }
+
+    void calculate(int length, int breadth) {
+        System.out.println(length * breadth);
+    }
+
+    public static void main(String[] args) {
+        Area a = new Area();
+        a.calculate(5);
+        a.calculate(4, 6);
+    }
+}

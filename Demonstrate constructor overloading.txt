@@ -1,0 +1,15 @@
+
+class Student {
+    Student() {
+        System.out.println("No arguments");
+    }
+
+    Student(String name) {
+        System.out.println(name);
+    }
+
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        Student s2 = new Student("Divya");
+    }
+}
